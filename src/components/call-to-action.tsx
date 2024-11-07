@@ -33,7 +33,7 @@ export default function CallToAction() {
   }, [])
 
   return (
-    <div className="pt-20">
+    <div className="pt-20" id="about">
       <div className="relative h-screen rounded-xl overflow-hidden container mx-auto">
         <div
           id="call-to-action"

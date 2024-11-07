@@ -5,7 +5,7 @@ import { montserrat } from "@/app/fonts"
 
 export default function Hero() {
   return (
-    <div>
+    <div id="home">
       <div className="relative h-screen w-full bg-black">
         <div className="absolute inset-0 opacity-50">
           <Image src={heroImage} alt="hero image" fill className="object-cover " />
