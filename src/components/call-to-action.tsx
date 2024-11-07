@@ -1,6 +1,5 @@
 "use client"
 
-import { bebas_neue } from "@/app/layout"
 import Image from "next/image"
 
 import { useGSAP } from "@gsap/react"

@@ -1,7 +1,7 @@
-import { montserrat } from "@/app/layout"
 import Image from "next/image"
 import TextReveal from "./text-reveal"
 import heroImage from "/public/hero-image.png"
+import { montserrat } from "@/app/fonts"
 
 export default function Hero() {
   return (

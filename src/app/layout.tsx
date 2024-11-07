@@ -2,20 +2,12 @@ import CallToAction from "@/components/call-to-action"
 import Footer from "@/components/footer"
 import Header from "@/components/header"
 import LocomtiveScrollProvider from "@/providers/locomotive-scroll"
-import { Montserrat, Bebas_Neue } from "next/font/google"
 
 import "./globals.css"
 import Template from "./template"
+import { montserrat } from "./fonts"
 
-export const montserrat = Montserrat({
-  weight: ["300", "400", "500", "600", "700", "800", "900"],
-  subsets: ["latin"]
-})
-export const bebas_neue = Bebas_Neue({
-  weight: ["400"],
-  variable: "--font-roboto",
-  subsets: ["latin"]
-})
+
 
 export default function RootLayout({
   children
