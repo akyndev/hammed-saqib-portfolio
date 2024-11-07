@@ -2,9 +2,7 @@
 import { useGSAP } from "@gsap/react"
 import gsap from "gsap"
 import Link from "next/link"
-import { usePathname } from "next/navigation"
 const Header = () => {
-  const pathname = usePathname()
 
   const { contextSafe } = useGSAP()
 
