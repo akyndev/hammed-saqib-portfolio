@@ -9,7 +9,9 @@ const Header = () => {
   const { contextSafe } = useGSAP()
 
   const scrollToView = contextSafe((id: string) => {
-    gsap.to(window, { duration: 1, scrollTo: { y: `#${id}`, offsetY: 50 }, ease: "power2" })
+    if (typeof window !== "undefined") {
+      gsap.to(window, { duration: 1, scrollTo: { y: `#${id}`, offsetY: 50 }, ease: "power2" })
+    }
   })
 
   return (
