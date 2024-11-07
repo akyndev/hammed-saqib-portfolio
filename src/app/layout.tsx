@@ -4,7 +4,6 @@ import Header from "@/components/header"
 import LocomtiveScrollProvider from "@/providers/locomotive-scroll"
 
 import "./globals.css"
-import Template from "./template"
 import { montserrat } from "./fonts"
 
 
@@ -18,12 +17,10 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <body className={`${montserrat.className} overflow-hidden`}>
         <LocomtiveScrollProvider>
-          <Template>
             <Header />
-            {children}
+            <main>{children}</main>
             <CallToAction />
             <Footer />
-          </Template>
         </LocomtiveScrollProvider>
       </body>
     </html>
