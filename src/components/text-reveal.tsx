@@ -1,6 +1,5 @@
 "use client"
 
-import { bebas_neue } from "@/app/layout"
 import { useGSAP } from "@gsap/react"
 import gsap from "gsap"
 import { useEffect } from "react"
