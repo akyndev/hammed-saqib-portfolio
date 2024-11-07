@@ -6,7 +6,6 @@ import { Montserrat, Bebas_Neue } from "next/font/google"
 
 import "./globals.css"
 import Template from "./template"
-import Hero from "@/components/hero"
 
 export const montserrat = Montserrat({
   weight: ["300", "400", "500", "600", "700", "800", "900"],
